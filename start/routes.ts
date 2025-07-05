@@ -16,4 +16,4 @@ router.get('/', async () => {
   }
 })
 
-router.get('getNextArrivals/:stopRef', [NextArrivalsController, 'getNextArrivals'])
+router.get('getNextArrivals/:stopRef', [NextArrivalsController, 'getSimplifiedArrivals'])
